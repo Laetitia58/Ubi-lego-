@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+     margin: 0;
+    padding:0;
+    }
+    
+    /********* texte sur image *******/
+    .overlay-image {
+    position: relative;
+        width:100%;
+    } 
+    .overlay-image .imagen {
+         display: block;
+     width: 100%;
+     height: auto;
+    }  
+    .overlay-image .text {
+     padding: 2%; 
+         text-shadow: 3px 3px 3px #000;
+         text-align: center;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
+    .overlay-image .ubilego {
+    font-size: 150px;
+        color: crimson;
+    }
+    .overlay-image .leyenda {
+         font-size: 230%;
+         font-style: oblique;
+         color: black;
+      background-color: beige;
+         padding:3px;
+    }
+    
+    /**************/
+    
+    .imagen:hover {
+        background-image: url("images/corboRen2.jpg");
+    } 
+    
+    
+    .section1 h1, h5{
+     color:red;
+    }
+    #entete h1{
+    text-align: center;
+    word-spacing: 10px;
+        font-style: oblique;
+    }
+    .section2{
+         width:80%;
+     height:80%;
+    margin: 10% ;
+    }
+    .section2 img{
+    width:100%;
+     margin-top: 50px;
+    }
+    .section3 { 
+     display: grid;
+     width:100%;
+     grid-template-columns: 1fr 1fr 1fr;
+         margin-bottom: 200px;
+    }
+    .container{
+         margin-top: 100px;
+    }
+    .container .card{
+     border-radius: 5%;
+        border:2px solid rgb(139, 134, 134);
+    }
+    .container .card-header{
+     text-align:center;
+    }
+    .container .card-header img{
+    border: 1px solid black;
+         padding:1%;
+        border-radius: 50%;
+        animation: clignote 10s linear infinite ;
+    }
+    @keyframes clignote { 
+     50% { opacity: 0; }
+         }
+    .container .card-header img:hover{
+     border: 1px solid blue;
+         background-color: rgb(112, 112, 230);
+         padding:1%;
+    border-radius: 50%;
+    }
+    .container .card-header img{
+     margin-left: 5%;
+    
+    }
+    .card-footer img:first-child{
+     margin-right: 50%;
+    }
+    .section4{
+         margin-bottom: 200px;
+    }
+    .footer{
+        margin-top:100px;
+     margin-bottom:100px;
+     display: grid;
+         width:100%;
+         grid-template-columns: 1fr 1fr;
+     text-align: center;
+    } 
+    .article{
+     border:1px solid; 
+    }
+    
