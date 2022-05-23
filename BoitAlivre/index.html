@@ -23,7 +23,7 @@
       <img class="imagen" src="images/corboRen1.jpg" />
           <div class="text"> 
             <span class="ubilego"> Ubi lego </span><br><br><br><br><br><br>
-            <span class="leyenda"> L'application pour localiser une boite à livres </span>  ><br><br><br><br>
+            <span class="leyenda"> L'application pour localiser une boite à livres </span>  <br><br><br><br>
 
             <p class="barreredecherche">
                 <div class="container-fluid">
@@ -33,9 +33,9 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">                  
                         <form class="form-inline">
-                          <input class="form-control mr-sm-2" type="search" placeholder="Indique une adresse" aria-label="Search">
-                          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Rechercher</button>
-                        </form>
+                          <input class="form-control" type="search" placeholder="Indique une adresse" aria-label="Search"></form>
+                          <button class="btn btn-outline-info" type="submit">Rechercher</button>
+                        
                        </div>
                     </nav>
                 </div>           
@@ -61,13 +61,14 @@
 </header>
 
                                  
-<article class="article bg-image" style="background-image: url('images/foto1.png'); background-repeat: no-repeat; background-size:cover;">
+<article class="article1">
 
                                  <!-------------- // SECTION1: barre de recherche //-------------->
 
+
 <section class="section1">
 
-<div class="container-fluid">
+<div class="container">
     <h1> <br> Localise ta boîte </h1>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +77,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Indique une adresse" aria-label="Search">
+          <input class="form-control" type="search" placeholder="Indique une adresse" aria-label="Search">
           <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Rechercher</button>
             </form>
             </div>
@@ -95,11 +96,18 @@
     
 </section>
 
+</article>
                                 <!-------------- // SECTION3: grille des lieux: avis les plus récents //-------------->
                              <titre id="entete">
-                                <h1> Sur la route des B.A.L. </h1>
+                                <h1><br> Sur la route des B.A.L.  </h1>
                             </titre>  
-<section class="section3 ">       
+ 
+
+<article class="article2">
+<section class="section3 container">  
+   
+<div class="container">
+<div class="row">
 
     <div  class="container" >  
         <div class="card" style="width: 30rem;">
@@ -115,7 +123,7 @@
     
     <div  class="container" >        
         <div class="card" style="width: 30rem;">
-            <div class="card-header"> L'environnement B.A.L. <a href="https://fr.mappy.com/plan#/Bouzonville%2057320"><img src="images/adresses.jpg" style="width: 30px; height:30px;"></a><span>Lorraine</span></div>
+            <div class="card-header"> L'environnement'B.A.L. <a href="https://fr.mappy.com/plan#/Bouzonville%2057320"><img src="images/adresses.jpg" style="width: 30px; height:30px;"></a><span>Lorraine</span></div>
                 <div class="card-body">
                     <div>
                         <a href="https://www.republicain-lorrain.fr/culture-loisirs/2021/05/24/dis-moi-ce-que-ta-ville-lit-je-te-dirais-ce-qu-elle-est"><img src="images/insectes.jpg" style="width:400px; height:300px;"></a>
@@ -171,15 +179,13 @@
                 </div>   
             <div class="card-footer"><img src="images/comentaires.jpg" style="width: 70px; height:90px;" ><img class="img" src="images/twitter.png" style="width: 50px; height:50px;"> <img src="images/instagram.jpg"style="width: 40px; height:40px;" ></div>  
         </div>
-    </div>  
+    </div>
+</div>
+</div> 
 
 </section>
 
                      <!-------------- // SECTION4: Les derniers articles et commentaires  //-------------->
-
-                                            <titre id="entete">
-                                                <h1> Les derniers articles </h1>
-                                            </titre> 
 
 <section class="section4">
 
@@ -196,10 +202,10 @@
 
     <div  class="container" >        
         <div class="card" style="width:cover;">
-            <div class="card-header"> Chasseurs de B.AL. </div>
+            <div class="card-header"> Les livres jeunesse </div>
                 <div class="card-body">
                     <div>
-                        <img src="images/sers_toi.jpeg" style="width:400px; height:300px;">
+                            <a href="https://www.midilibre.fr/2019/08/04/une-boite-a-livres-au-coeur-du-village,8345779.php"><img src="/BoitAlivre/images/enfants.jpg" style="width: 400px; height:300px;"></a>
                     </div>                                     
                 </div>     
         </div>
@@ -223,7 +229,8 @@
 </article>
 
 <footer class="footer">
-    
+   
+<div>
 <div>    
 <ul>
     <li>Qui sommes-nous?</li>
@@ -238,6 +245,7 @@
     <li>Actualités</li>
     <li>Commentaires</li>
 </ul> 
+</div>
 </div>
 
 </footer>
